@@ -19,6 +19,9 @@ The **FashionMNIST dataset** consists of:
   - Bag
   - Ankle boot
 
+## 📂Dataset Link
+- https://www.kaggle.com/datasets/zalando-research/fashionmnist
+
 ## 📜 Model Architecture
 The implemented **SimpleNet** is a **fully connected feed-forward neural network** with the following layers:
 - **Input layer:** 28 × 28 neurons (flattened image input)
