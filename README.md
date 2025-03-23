@@ -53,15 +53,6 @@ class SimpleNet(nn.Module):
 - **Loss Function:** `CrossEntropyLoss()` (since it's a multi-class classification problem)
 - **Optimizer:** `Adam()` with a learning rate of `0.001`
 
-```python
-# Instantiate the model
-model = SimpleNet()
-
-# Loss function and optimizer
-criterion = nn.CrossEntropyLoss()  # Classification loss
-optimizer = optim.Adam(model.parameters(), lr=0.001)  # Adam optimizer
-```
-
 ## 📊 Training Pipeline
 1. **Load the FashionMNIST dataset** (training and test data)
 2. **Normalize the dataset** for better model performance
@@ -72,18 +63,6 @@ optimizer = optim.Adam(model.parameters(), lr=0.001)  # Adam optimizer
 ### **1️⃣ Install Dependencies**
 ```bash
 pip install torch torchvision matplotlib
-```
-
-### **2️⃣ Train the Model**
-Run the Python script to train the model:
-```bash
-python train.py
-```
-
-### **3️⃣ Evaluate the Model**
-Once training is complete, evaluate the model on the test set:
-```bash
-python evaluate.py
 ```
 
 ## 📈 Expected Results
