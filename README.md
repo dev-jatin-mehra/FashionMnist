@@ -92,6 +92,3 @@ After training, the model should achieve an **accuracy of ~85%** on the test set
 ## 🔥 Future Improvements
 - Experiment with **CNNs (Convolutional Neural Networks)** for improved accuracy
 - Implement a **FLASK API** for web realted tasks
-- Optimize **hyperparameters** using techniques like **learning rate scheduling**
-
-
