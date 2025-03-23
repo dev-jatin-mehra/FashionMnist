@@ -59,15 +59,6 @@ class SimpleNet(nn.Module):
 3. **Train the model** using mini-batch gradient descent
 4. **Evaluate the model** on the test set
 
-## 🚀 How to Run the Project
-### **1️⃣ Install Dependencies**
-```bash
-pip install torch torchvision matplotlib
-```
-
-## 📈 Expected Results
-After training, the model should achieve an **accuracy of ~85%** on the test set. Further improvements can be made using techniques such as **dropout, batch normalization, and deeper architectures**.
-
 ## 🔥 Future Improvements
 - Experiment with **CNNs (Convolutional Neural Networks)** for improved accuracy
 - Implement a **FLASK API** for web realted tasks
